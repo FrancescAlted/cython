@@ -1,0 +1,28 @@
+This is a reminder for several tasks to be done in documentation.
+
+Long term goal: merge parts of User's Guide into tutorial and
+Reference Guide, and then remove it.
+
+* Reference Guide
+  * Interfacing with other code: empty
+  * Special Mention: empty
+  * Limitations: empty
+  * Special functions: why not move __iter__ to iterator section?
+
+* Special methods section differs in User's Guide and Reference Guide
+  * Syncronize?
+
+* Using C++ in Cython -> move to tutorial?
+
+Tutorial/Further reading:
+  * DevList is not updated
+
+Tutorial/Caveats:
+  * This does not fit there, I think
+
+Why do not name CEP after their names?:
+  http://wiki.cython.org/enhancements/division
+
+Look into using numexpr from Cython.  Frames are not supported in
+Cython, so check if that works.
+
